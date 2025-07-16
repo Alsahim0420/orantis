@@ -37,6 +37,24 @@ dependencies:
   
   # Navigation
   go_router: ^13.2.0
+  
+  # State Management
+  flutter_bloc: ^8.1.4
+  equatable: ^2.0.5
+  
+  # Audio
+  audioplayers: ^5.2.1
+  flutter_tts: ^4.0.2
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # Notifications
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+  
+  # Image processing
+  image: ^4.1.7
 
 dev_dependencies:
   flutter_test:
@@ -48,6 +66,15 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "icono.png"
+  adaptive_icon_background: "#1E3A8A"
+  adaptive_icon_foreground: "icono.png"
+  remove_alpha_ios: false
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -61,7 +88,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/audio/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
